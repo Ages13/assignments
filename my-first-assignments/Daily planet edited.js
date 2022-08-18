@@ -9,17 +9,17 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var Enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-function Who_Wins(isThereKryptonite,enemy_name)
+function Who_Wins(isThereKryptonite,enemyName)
 {
-if (!is-there-kryptonite)
+if (isThereKryptonite)
 {
-    return "Superman beats " +enemyName+ ", of course";
+    return "Superman beats " + enemyName + ", of course";
 }
 
 else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+enemyname+" could possibly win this one.";
+    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyName +" could possibly win this one.";
 }
     }
 
@@ -27,9 +27,9 @@ for (var i = 0; i < enemies.length; i++)
 {
     var isThereKryptonite;
     if(i % 2 === 0) {
-        is_there_kryptonite = true;
+        isThereKryptonite = true;
     } else {
-        is_there_kryptonite = false;
+        isThereKryptonite = false;
     }
     console.log(Who_Wins(isThereKryptonite,enemies[i]));
 }
