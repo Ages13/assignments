@@ -10,11 +10,47 @@ body {
     
 }
 
-#blue {
+.blue {
     background-color: white;
     border-radius: 5px;
-    height: 50px;
-    width: 100px;
+    height: 100px;
+    width: 150px;
     cursor: pointor;
-    transform: translate(550px, 600px);
+    transform: translate(550px, 500px);
+}
+
+.red {
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 150px;
+    cursor: pointor;
+    transform: translate(600px, 500px);
+}
+
+.yellow {
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 150px;
+    cursor: pointor;
+    transform: translate(650px, 500px);
+}
+
+.green {
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 150px;
+    cursor: pointor;
+    transform: translate(700px, 500px);
+}
+
+.orange {
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+    width: 150px;
+    cursor: pointor;
+    transform: translate(750px, 500px);
 }
