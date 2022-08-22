@@ -1,42 +1,42 @@
-let squarebutton = document.getElementById("square");
+let lazer = document.getElementById("square");
 
-squarebutton.addEventListener("mouseover", mouseOver);
+lazer.addEventListener("mouseover", mouseOver);
 
 function mouseOver(){
     console.log(mouseOver);
-    squarebutton.style.backgroundColor = "blue";
+    lazer.style.backgroundColor = "blue";
 }
 
-squarebutton.addEventListener("mousedown", mouseDown);
+lazer.addEventListener("mousedown", mouseDown);
 
 function mouseDown(){
     console.log(mouseDown);
-    squarebutton.style.backgroundColor = "red";
+    lazer.style.backgroundColor = "red";
 }
 
-squarebutton.addEventListener("mouseup", mouseUp);
+lazer.addEventListener("mouseup", mouseUp);
 
 function mouseUp(){
     console.log(mouseUp);
-    squarebutton.style.backgroundColor = "yellow";
+    lazer.style.backgroundColor = "yellow";
 }
 
-squarebutton.addEventListener("dblclick", dblClick, false);
+lazer.addEventListener("dblclick", dblClick, false);
 
 function dblClick(){
     console.log(dblClick);
-    squarebutton.style.backgroundColor = "green";
+    lazer.style.backgroundColor = "green";
 }
 
-squarebutton.addEventListener("wheel", wheel);
+lazer.addEventListener("wheel", wheel);
 
 function wheel(){
     console.log(wheel);
-    squarebutton.style.backgroundColor  = "orange";
+    lazer.style.backgroundColor  = "orange";
 }
 
 
-squarebutton.addEventListener("keydown", keyDown); 
+lazer.addEventListener("keydown", keyDown); 
 
 function keyDown() {
     switch (event.keyCode) {
@@ -60,6 +60,6 @@ function keyDown() {
 };
 
 function setBackgroundColor(color) {
-  squarebutton.querySelector('body')
-    squarebutton.style.backgroundColor = color;
+  lazer.querySelector('body')
+    lazer.style.backgroundColor = color;
 }
