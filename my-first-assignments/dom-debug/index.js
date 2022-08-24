@@ -4,7 +4,7 @@ document.getElementById("add").addEventListener("click", function(e){
     const subItem = createSubItem(e);
     document.getElementById("list").appendChild(subItem);
 })
-// added .lenght to the for loop
+// added .length to the for loop
 function createDropDown(){
     const dropDown = document.createElement("select");
     
