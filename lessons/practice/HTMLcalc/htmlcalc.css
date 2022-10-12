@@ -1,0 +1,36 @@
+.h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(650px, 10px);
+}
+
+.body {
+    
+    background-color:burlywood;
+    color:rgb(red, green, blue);
+}
+
+.Add {
+    background-color:chocolate;
+    height: 50px;
+    width: 75px;
+    padding: 5px;
+    
+    transform: translate(100px, 100px);
+}
+
+.Subtract {
+    background-color:brown;
+    height: 50px;
+    width: 120px;
+    padding: 5px;
+    transform: translate(100px, 250px);
+
+}
+
+.Multiply {
+    background-color:indianred;
+    height: 50px;
+    width: 120px;
+    padding: 5px;
+    transform: translate(100px, 400px);
+}

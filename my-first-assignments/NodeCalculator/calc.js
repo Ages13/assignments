@@ -35,7 +35,7 @@ switch(operator) {
         console.log('The result of '+firstNumber+operator+secondNumber+' = '+ (firstNumber*secondNumber));
         break;    
     case '/':
-        console.log('The result of '+firstNumber+operator+secondNumber+' = '+ ((firstNumber/secondNumber).tofixed(2)));
+        console.log('The result of '+firstNumber+operator+secondNumber+' = '+ ((firstNumber/secondNumber).toFixed(2)));
         break;    
     default:
         console.log('Something went wrong :(');

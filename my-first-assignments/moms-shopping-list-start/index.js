@@ -1,3 +1,5 @@
+const { title } = require("process");
+
 const myList = document.getElementById("list");
 
 // prevents the submit button form refreshing
@@ -18,7 +20,7 @@ const xButton = document.createElement("button");
 xButton.id = "x";
 editButton.textContent = "edit";
 xButton.textContent = "x";
-
+title.value = "";
 // adds the new buttons and list into the exisiting list
 newLi.appendChild(editButton);
 newLi.appendChild(xButton);

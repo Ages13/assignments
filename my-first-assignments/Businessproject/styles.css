@@ -1,0 +1,230 @@
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+.body {
+    
+    background-color:gray;
+    color:rgb(red, green, blue)
+    
+}
+
+.h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(650px, 10px)
+}
+
+.h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(600px, 20px)
+}
+
+.pages {
+    background-image: url('https://themuralstore.com/images/product/414-75868.jpg');
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size: cover;
+}
+
+.Menu {
+    background-color: white;
+    border-radius: 5px;
+    font-family: cursive;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    margin:auto;
+    cursor: pointer;
+    transform: translate(10px, 10px);
+    display:inline-block;
+    
+}
+
+.About {
+    background-color: white;
+    border-radius: 5px;
+    font-family: cursive;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    margin:auto;
+    cursor: pointer;
+    transform: translate(15px, 10px);
+    display:inline-block;
+}
+
+
+.Dress {
+    background-color: white;
+    border-radius: 5px;
+    font-family: cursive;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    margin:auto;
+    cursor: pointer;
+    transform: translate(20px, 10px);
+    display:inline-block;
+}
+
+.pic {
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    transform: translate(50px, 50px);
+}
+
+.h11 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: translate(650px, 10px)
+}
+
+.para {
+    width: 450px;
+    border-radius: 5px;
+    padding: 10px;
+  border: 5px solid gray;
+  margin: 5;
+  font-family: cursive;
+  transform: translate(700px, 500px);
+
+}
+
+.dress {
+    
+    height: 10px;
+    width: 10px;
+    padding: 10px;
+    transform: translate(0px, 0px);
+    display:inline-grid;
+}
+
+.picture {
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+
+}
+
+.picture1 {
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .body {
+    
+        background-color:gray;
+        color:rgb(red, green, blue)
+        
+    }
+    
+    .h1 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transform: translate(650px, 10px)
+    }
+    
+    .h2 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transform: translate(600px, 20px)
+    }
+    
+    .pages {
+        background-image: url('https://themuralstore.com/images/product/414-75868.jpg');
+        background-repeat: no-repeat;
+        height: 1000px;
+        background-size: cover;
+    }
+    
+    .Menu {
+        background-color: white;
+        border-radius: 5px;
+        font-family: cursive;
+        height: 50px;
+        width: 100px;
+        padding: 10px;
+        margin:auto;
+        cursor: pointer;
+        transform: translate(10px, 10px);
+        display:inline-block;
+        
+    }
+    
+    .About {
+        background-color: white;
+        border-radius: 5px;
+        font-family: cursive;
+        height: 50px;
+        width: 100px;
+        padding: 10px;
+        margin:auto;
+        cursor: pointer;
+        transform: translate(15px, 10px);
+        display:inline-block;
+    }
+    
+    
+    .Dress {
+        background-color: white;
+        border-radius: 5px;
+        font-family: cursive;
+        height: 50px;
+        width: 100px;
+        padding: 10px;
+        margin:auto;
+        cursor: pointer;
+        transform: translate(20px, 10px);
+        display:inline-block;
+    }
+    
+    .pic {
+        height: 250px;
+        width: 200px;
+        padding: 10px;
+        transform: translate(50px, 50px);
+    }
+    
+    .h11 {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transform: translate(650px, 10px)
+    }
+    
+    .para {
+        width: 450px;
+        border-radius: 5px;
+        padding: 10px;
+      border: 5px solid gray;
+      margin: 5;
+      font-family: cursive;
+      transform: translate(700px, 500px);
+    
+    }
+    
+    .dress {
+        
+        height: 10px;
+        width: 10px;
+        padding: 10px;
+        transform: translate(0px, 0px);
+        display:inline-grid;
+    }
+    
+    .picture {
+        height: 250px;
+        width: 200px;
+        padding: 10px;
+    
+    }
+    
+    .picture1 {
+        height: 250px;
+        width: 200px;
+        padding: 10px;
+    }
+    
+}

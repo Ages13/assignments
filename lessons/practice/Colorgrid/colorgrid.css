@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%
+}
+
+
+.box1 {
+    background-color:#F5C6D6 ; 
+    width:300px;
+    height: 100px;
+    border: solid white 10px;
+
+}
+
+.box2 {
+    background-color:#EE2E84 ;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    border: solid white 10px;
+    
+}
+
+.box3 {
+     background-color:#EE2E84 ;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: solid white 10px;
+    
+}
+
+.box4 {
+    background-color:#EE2E84 ;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: solid white 10px;
+    
+}
+
+.box5 {
+    background-color:#EE2E84 ;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: solid white 10px;
+    
+}
+
+.box6 {
+    background-color:#85CFD8 ;
+    width: 48px;
+    height: 100px;
+    display: inline-block;
+    border: solid white 10px;
+    
+}
+
+.box7 {
+    background-color:#85CFD8 ;
+    width: 48px;
+    height: 100px;
+    display: inline-block;
+    border: solid white 10px;
+    
+}
+
+.box8 {
+    background-color:#8DC63F;
+    width: 74px;
+    height: 100px;
+    display: inline-block;
+    border: solid white 10px;
+    
+}
+
+.box9 {
+    background-color:#E76E34 ;
+    width: 23px;
+    height: 100px;
+    border: solid white 10px;
+    
+}
+
+@media only screen and (max-width: 768px){
+    .box1 {
+        background-color:#F5C6D6 ; 
+        width: 100px;
+        height: 100px;
+        border: solid white 10px;
+    
+    }
+    
+    .box2 {
+        background-color:#EE2E84 ;
+        width: 100px;
+        height: 100px;
+        border: solid white 1px;
+        
+    }
+    
+    .box3 {
+         background-color:#EE2E84 ;
+        width: 100px;
+        height: 100px;
+        border: solid white 1px;
+        
+    }
+    
+    .box4 {
+        background-color:#EE2E84 ;
+        width: 100px;
+        height: 100px;
+        border: solid white 1px;
+        
+    }
+    
+    .box5 {
+        background-color:#EE2E84 ;
+        width: 100px;
+        height: 100px;
+        border: solid white 10px;
+        
+    }
+    
+    .box6 {
+        background-color:#85CFD8 ;
+        width: 100px;
+        height: 100px;
+        border: solid white 1px;
+        
+    }
+    
+    .box7 {
+        background-color:#85CFD8 ;
+        width: 100px;
+        height: 100px;
+        border: solid white 1px;
+        
+    }
+    
+    .box8 {
+        background-color:#8DC63F;
+        width: 100px;
+        height: 100px;
+        border: solid white 1px;
+        
+    }
+    
+    .box9 {
+        background-color:#E76E34 ;
+        width: 100px;
+        height: 100px;
+        border: solid white 1px;
+        
+    }
+    
+}
