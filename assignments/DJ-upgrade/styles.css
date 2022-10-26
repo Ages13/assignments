@@ -1,0 +1,99 @@
+#h1 {
+
+
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transform: translate(75px, 150px);
+    background-color:aqua;
+    transition: background-color 1s linear 1s;
+    
+
+}
+
+#box1:hover {
+    background-color: firebrick;
+
+
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transform: translate(300px, 0px);
+    background-color: gold;
+    transition: background 250ms linear 250ms;
+
+
+}
+
+#box2:hover {
+    background: red;
+    border: 10px solid #d0d0d0;
+    height: 300px;
+    
+}
+
+#box3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transform: translate(525px, -150px);
+    background-color: chartreuse;
+
+}
+
+#box3:hover {
+   
+
+    
+}
+
+#box4 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transform: translate(750px, -300px);
+    background-color:blueviolet;
+
+}
+
+#box4:hover {
+
+
+    
+}
+
+#box5 {
+ width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transform: translate(975px, -450px);
+    background-color:darkred;
+
+}
+
+#box5:hover {
+
+
+    
+}
+
+#box6 {
+   width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transform: translate(1200px, -600px);
+    background-color:azure
+
+}
+
+#box6:hover {
+
+
+    
+}
