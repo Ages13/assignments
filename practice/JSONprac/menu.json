@@ -1,0 +1,33 @@
+[
+    {
+        "menu": "Appetizers",
+        "numberOfItems": 3,
+        "menuItem": ["Fried Pickles", "Onion Rings", "Fries"],
+        "description": "Amazing appetizers locally sourced"
+    },
+    {
+        "menu": "Cold Sandwiches",
+        "numberOfItems": 5,
+        "menuItem": ["Ruben", "Grandaddy", "Tricolor Sandwich", "Mayo Veg Curd Sandwich", "Cream Cheese Sandwich"],
+        "description": "Best cold sandwichs in the neirborhood!"
+    },
+    {
+        "menu": "Hot Sandwiches",
+        "numberOfItems": 5,
+        "menuItem": ["The Classic Cooper", "The Philly Cheesesteak", "Hot Pastrami", "Hot Ham and Cheese", "Corned Beef and Cabbabge"],
+        "description": "You won't find these hot sandwiches anywhere this cold"
+    },
+    {
+        "menu": "Desserts",
+        "numberOfItems": 4,
+        "menuItem": ["Carrot Cake", "Apple Pie", "S'mores", "Cheesecake"],
+        "description": "Our amazing homemade desserts, makes you wish your grandmother still loved you"
+    },
+    {
+        "menu": "Drinks",
+        "numberOfItems": 5,
+        "menuItem": ["Coke", "Sprite", "Pepsi", "Mountain Dew"],
+        "description": "We don't care about competition"
+    }
+
+]
